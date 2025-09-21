@@ -12,7 +12,7 @@ It's an extremely lax and extremely fun game jam that takes place every October.
 
 ## Are *you* imposing rules on yourself?
 
-Only a few.
+Only a couple.
 
 1. All assets must be created during the jam period.
 2. Updates will be provided every 2-3 days to a [YouTube Channel]().

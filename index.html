@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ashes</title>
+    <meta name="description" content="A demo for the Devtober 2025 game jam!">
+    <style>
+        /* Full window background */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        /* Pixel-perfect canvas */
+        canvas {
+            width: 100%;
+            max-width: 960px;
+            height: 100%;
+            image-rendering: pixelated; /* preserves sharp edges for retro look */
+            border: 4px solid #444; /* optional border for style */
+            border-radius: 8px;      /* optional rounding */
+            box-shadow: 0 0 20px rgba(0,0,0,0.7); /* subtle shadow */
+            outline: none;           /* removes focus outline when canvas is clicked */
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="glcanvas" tabindex="1"></canvas>
+    <!-- Macroquad JS runtime -->
+    <script src="https://not-fl3.github.io/miniquad-samples/mq_js_bundle.js"></script>
+    <script>
+        load("ashes.wasm"); // Your compiled wasm file
+    </script>
+</body>
+
+</html>
